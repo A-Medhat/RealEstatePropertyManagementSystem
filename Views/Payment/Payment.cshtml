@@ -1,0 +1,36 @@
+﻿@model PaymentViewModel
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation.unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+<form asp-action="ProcessPayment" method="post">
+    <input type="hidden" asp-for="TenantID" />
+    <input type="hidden" asp-for="LeaseID" />
+    <input type="hidden" asp-for="Amount" />
+
+    <div class="form-group">
+        <label for="CardNumber">Card Number</label>
+        <input type="text" asp-for="CardNumber" class="form-control" required />
+        <span asp-validation-for="CardNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="ExpirationDate">Expiration Date</label>
+        <input type="date" asp-for="ExpirationDate" min="@DateTime.Now.ToString("yyyy-MM-dd")" class="form-control" required />
+        <span asp-validation-for="ExpirationDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="CVV">CVV</label>
+        <input type="text" asp-for="CVV" class="form-control" required />
+        <span asp-validation-for="CVV" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Amount">Amount</label>
+        <input type="text" asp-for="Amount" class="form-control" readonly required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Payment</button>
+</form>
+

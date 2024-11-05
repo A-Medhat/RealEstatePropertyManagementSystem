@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RentEase</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/realEstate1.styles.css" asp-append-version="true" />
+    <style>
+        .search-form {
+            width: 60%; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark text-light border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">RentEase</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse">
+                    <div class="mx-auto search-form">
+                                                                             
+                        <form class="d-flex w-100" method="get" asp-controller="Properties" asp-action="GetPropritesByCategroy">
+                            <select name="category" class="form-select me-2" aria-label="Property Type">
+                                <option value="" selected>Choose category</option>
+                                <option value="Apartments">Apartments</option>
+                                <option value="Villas">Villas</option>
+                                <option value="Vacation Homes">Vacation Homes</option>
+                            </select>
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown ms-auto">
+                            <a class="nav-link dropdown-toggle text-light" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="adminDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Properties" asp-action="Index">Manage Properties</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Leases" asp-action="Index">Manage Lessees</a></li>
+                               @*  <li><a class="dropdown-item" asp-area="" asp-controller="Admin" asp-action="ManageTenants">Manage Tenants</a></li> *@
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - RentEase
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

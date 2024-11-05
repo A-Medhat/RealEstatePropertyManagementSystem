@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\servcies\\leaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:servcies\\leaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\servcies\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:servcies\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\views\\properties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:views\\properties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\servcies\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:servcies\\tenantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\servcies\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:servcies\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\servcies\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:servcies\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:models\\propertyimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:controllers\\propertiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\controllers\\leasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:controllers\\leasescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|c:\\users\\ahmed\\source\\repos\\realestate1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD06821-43E4-47AA-AFC1-FAEE9C11D500}|realEstate1.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "Models\\Property.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Models\\Property.cs",
+              "RelativeToolTip": "Models\\Property.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T16:59:09.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Views\\Properties\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Properties\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Views\\Properties\\Create.cshtml",
+              "RelativeToolTip": "Views\\Properties\\Create.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAFwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T15:09:02.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:59.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TenantService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\TenantService.cs",
+              "RelativeDocumentMoniker": "servcies\\TenantService.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\TenantService.cs",
+              "RelativeToolTip": "servcies\\TenantService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\PropertyService.cs",
+              "RelativeDocumentMoniker": "servcies\\PropertyService.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\PropertyService.cs",
+              "RelativeToolTip": "servcies\\PropertyService.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:36.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\PaymentService.cs",
+              "RelativeDocumentMoniker": "servcies\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\PaymentService.cs",
+              "RelativeToolTip": "servcies\\PaymentService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:26.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeaseService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\LeaseService.cs",
+              "RelativeDocumentMoniker": "servcies\\LeaseService.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\LeaseService.cs",
+              "RelativeToolTip": "servcies\\LeaseService.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAD8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:11.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\ImageService.cs",
+              "RelativeDocumentMoniker": "servcies\\ImageService.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\servcies\\ImageService.cs",
+              "RelativeToolTip": "servcies\\ImageService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:58:08.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PropertyImage.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Models\\PropertyImage.cs",
+              "RelativeDocumentMoniker": "Models\\PropertyImage.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Models\\PropertyImage.cs",
+              "RelativeToolTip": "Models\\PropertyImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:57:59.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertiesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\PropertiesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PropertiesController.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\PropertiesController.cs",
+              "RelativeToolTip": "Controllers\\PropertiesController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAADwv6UAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:42.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeasesController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\LeasesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeasesController.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\LeasesController.cs",
+              "RelativeToolTip": "Controllers\\LeasesController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAADwv1YAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:13.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:06.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\Ahmed\\source\\repos\\realEstate1\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "Controllers\\PaymentController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T08:11:38.12Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

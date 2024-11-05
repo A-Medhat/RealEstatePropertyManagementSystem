@@ -1,0 +1,104 @@
+﻿@* @model realEstate1.Models.Property
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Property</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Owner" class="control-label"></label>
+                <input asp-for="Owner" class="form-control" />
+                <span asp-validation-for="Owner" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Type" class="control-label"></label>
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="Status" class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+ *@
+@model realEstate1.Models.Property
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Address" class="form-label"></label>
+        <input asp-for="Address" class="form-control" placeholder="Enter property address" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Owner" class="form-label"></label>
+        <input asp-for="Owner" class="form-control" placeholder="Enter owner's name" />
+        <span asp-validation-for="Owner" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ownerphone" class="form-label"></label>
+        <input asp-for="Ownerphone" class="form-control" placeholder="Enter owner's Phone" />
+        <span asp-validation-for="Ownerphone" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Type" class="form-label"></label>
+        <select asp-for="Type" class="form-control">
+            <option value="">Select Property Type</option>
+            <option value="Apartments">Apartments</option>
+            <option value="Villas">Villas</option>
+            <option value="Vacation Homes">Vacation Houses</option>
+
+        </select>
+        <span asp-validation-for="Type" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PricePerDay" class="form-label"></label>
+        <input asp-for="PricePerDay" class="form-control" placeholder="Enter price per day" />
+        <span asp-validation-for="PricePerDay" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="form-label"></label>
+        <input asp-for="Description" class="form-control" placeholder="Enter Description" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label class="form-label">Upload Images</label>
+        <input type="file" name="imageFiles" multiple class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="bbtn btn-primary" />
+
+    </div>
+
+</form>
+

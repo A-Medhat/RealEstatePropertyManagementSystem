@@ -1,0 +1,96 @@
+﻿
+@* <h2>@Model.Address</h2>
+<p>@Model.Description</p>
+<p>Price per Day: @Model.PricePerDay</p>
+
+<form asp-action="Rent" method="post">
+    <input type="hidden" name="propertyId" value="@Model.PropertyID" />
+    <div class="form-group">
+        <label for="tenantName">Tenant Name</label>
+        <input type="text" name="tenantName" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="tenantContact">Tenant Contact</label>
+        <input type="text" name="tenantContact" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="startDate">Start Date</label>
+        <input type="date" name="startDate" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="endDate">End Date</label>
+        <input type="date" name="endDate" class="form-control" required />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Proceed To Pay</button>
+</form> *@
+@model realEstate1.Models.RentViewModel
+
+@{
+    var bookedDates = ViewBag.BookedDates as List<string>;
+}
+
+<h2>@Model.Address</h2>
+<p>@Model.Description</p>
+<p>Price per Day: @Model.PricePerDay</p>
+
+<form asp-action="Rent" method="post">
+    <input type="hidden" asp-for="PropertyId" />
+
+    <div class="form-group">
+        <label asp-for="TenantName"></label>
+        <input asp-for="TenantName" class="form-control" placeholder="Enter Tenant Name" />
+        <span asp-validation-for="TenantName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TenantContact"></label>
+        <input asp-for="TenantContact" class="form-control" placeholder="Enter Phone Number" />
+        <span asp-validation-for="TenantContact" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="StartDate"></label>
+        <input asp-for="StartDate" id="startDate" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" class="form-control" />
+        <span asp-validation-for="StartDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EndDate"></label>
+        <input asp-for="EndDate" id="endDate" type="date" min="@DateTime.Now.ToString("yyyy-MM-dd")" class="form-control" />
+        <span asp-validation-for="EndDate" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Proceed To Pay</button>
+</form>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var bookedDates = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(bookedDates));
+
+        function isBooked(dateStr) {
+            return bookedDates.includes(dateStr);
+        }
+
+        function adjustDateInput(input) {
+            var date = new Date(input.value);
+            var formattedDate = date.toISOString().split('T')[0];
+
+            if (isBooked(formattedDate)) {
+                alert("This date is already booked. Please choose another date.");
+                input.value = "";
+            }
+        }
+
+        var startDateInput = document.getElementById("startDate");
+        var endDateInput = document.getElementById("endDate");
+
+        startDateInput.addEventListener("change", function () {
+            adjustDateInput(startDateInput);
+        });
+
+        endDateInput.addEventListener("change", function () {
+            adjustDateInput(endDateInput);
+        });
+    });
+</script>
