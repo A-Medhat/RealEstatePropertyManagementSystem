@@ -1,9 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using realEstate1.Models;
 
 namespace realEstate1.Data
 {
-    public class MyAppDbcontext : DbContext
+    public class MyAppDbcontext : IdentityDbContext
     {
         public MyAppDbcontext()
         {
